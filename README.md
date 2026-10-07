@@ -1,18 +1,18 @@
 # 3d-architectures
 
+
+# 网盘地址
+
+本项目产出的blend和glb文件放到百度网盘了
+
+链接: [https://pan.baidu.com/s/1Jg1-WMQwbCaKhQUxAuPfTQ?pwd=bmty](https://pan.baidu.com/s/1Jg1-WMQwbCaKhQUxAuPfTQ?pwd=bmty) 提取码: bmty 
+
 # 使用方式
 
 1. 去[https://www.blender.org/download/](https://www.blender.org/download/)里下载blender并安装
-2. 把主prompt和任务prompt拼在一起，丢给AI，当然，如果在同一个对话里，可以不用重复输入主prompt
+2. 把**主prompt**和**具体任务prompt**拼在一起，丢给AI，当然，如果在同一个对话里，可以不用重复输入主prompt
 3. 最后会生成一坨文件，找到xxx.blend文件，直接用blender打开它，就可以看效果了
 4. 如果不在blender里用，要去Unity之类的地方用，可以直接拿对应的glb文件(当然，也可以自己在blender里改.blend，再导出)
-
-注：glb和blend文件用lfs保存了，需要如下命令才能拉到真实文件
-
-```shell
-git lfs checkout
-git lfs pull 
-```
 
 # 一些demo
 
@@ -206,7 +206,7 @@ git lfs pull
   </tr>
 </table>
 
-# 建筑类主prompts
+# 主prompt
 
 ```
 你将使用自己云电脑中的 Blender，完成一座全球著名建筑的外部中高精度 3D 重建。
